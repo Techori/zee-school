@@ -66,7 +66,7 @@ const EnquiryModal = ({ btnTxt }: PopUpProps) => {
       access_key: import.meta.env.VITE_PUBLIC_ACCESS_KEY,
     };
     // TODO: REMOVE 
-    console.log("form data eq form",formData)
+    
       mutation.mutate(formData)
     };
 
