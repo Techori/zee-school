@@ -1,3 +1,3 @@
 ## Project info
 
-**URL**: https://mount-literazee-school.vercel.app/
+**URL**: test-school-ten.vercel.app
