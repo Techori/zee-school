@@ -21,8 +21,8 @@ export interface FormsPopProps {
   message: string;
 }
 const api = axios.create({
-    baseURL: "https://api.web3forms.com/submit/",
-    // baseURL: import.meta.env.VITE_PUBLIC_BASE_URL,
+    // baseURL: "https://api.web3forms.com/submit/",
+    baseURL: import.meta.env.VITE_PUBLIC_BASE_URL,
     headers: {
         'Content-Type': 'application/json'
     }

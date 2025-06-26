@@ -62,8 +62,8 @@ const EnquiryModal = ({ btnTxt }: PopUpProps) => {
 
       const formData = {
       ...data,
-      access_key: "93e3e139-e58e-4135-b637-57527a918d83"
-      // access_key: import.meta.env.VITE_PUBLIC_ACCESS_KEY,
+      // access_key: "93e3e139-e58e-4135-b637-57527a918d83"
+      access_key: import.meta.env.VITE_PUBLIC_ACCESS_KEY,
     };
       mutation.mutate(formData)
     };
