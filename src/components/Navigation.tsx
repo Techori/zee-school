@@ -44,7 +44,7 @@ export function Navigation() {
               Admission
             </Button> */}
             <EnquiryModal btnTxt=" Admission"/>
-                <Link to={"https://www.larn2pay.com/login"} >
+                <Link to={"#"} >
             <Button
               className="ml-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
             >
@@ -84,7 +84,7 @@ export function Navigation() {
                   Admission
                 </Button> */}
                 <EnquiryModal btnTxt=" Admission"/>
-                <Link to={"https://www.larn2pay.com/login"} >
+                <Link to={"#"} >
                 <Button
                   className="ml-4 mt-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
                   >
