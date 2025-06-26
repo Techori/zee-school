@@ -55,8 +55,11 @@ export default function ContactForm() {
     onError: () => toast.error("Failed to send message."),
   });
   const onSubmit = (data: FormProps) => {
-
-      mutation.mutate(data)
+      const formData = {
+      ...data,
+      access_key: import.meta.env.VITE_PUBLIC_ACCESS_KEY,
+    };
+      mutation.mutate(formData)
     };
 
   return (
