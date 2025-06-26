@@ -5,21 +5,21 @@ import { Star, Quote } from 'lucide-react';
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Mrs. Geeta Sharma",
+      name: "Mrs. john Doe",
       relation: "Parent of Class VIII Student",
       content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, ",
       rating: 5,
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=100&h=100&fit=crop&crop=faces"
     },
     {
-      name: "Mr. Rakesh Patel",
+      name: "Mr. luke Skywalker",
       relation: "Parent of Class X Student",
       content: "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,",
       rating: 5,
       image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=100&h=100&fit=crop&crop=faces"
     },
     {
-      name: "Mrs. Kavita Singh",
+      name: "Mrs. Jane Smith",
       relation: "Parent of Class V Student",
       content: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.",
       rating: 5,

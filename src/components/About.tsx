@@ -42,7 +42,7 @@ Mount Litera Zee School is a premier chain of K-12 schools in India, dedicated t
 
             <div className="space-y-4">
               {[
-                "CBSE Affiliated Institution",
+                // "CBSE Affiliated Institution",
                 "Qualified and Experienced Faculty",
                 "Modern Infrastructure & Facilities",
                 "Co-curricular Activities"

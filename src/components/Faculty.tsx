@@ -30,6 +30,16 @@ export function Faculty() {
       phone: "+91 83196 03391",
       alt:"/user.avif"
     },
+     {
+      name: "Ratika Bhamri",
+      position: "principal  ",
+      experience: "12+ Years",
+      image: "/Images/faculty/img4.jpg",
+      email: "bhamriratika@gmail.com",
+      phone: "+91 94797 32301",
+      alt:"/user.avif"
+    },
+   
    
   ];
 
@@ -45,11 +55,11 @@ export function Faculty() {
           </p>
         </div>
 
-        <div className="flex justify-center flex-wrap gap-8">
+        <div className="flex justify-start flex-nowrap gap-8 overflow-x-auto pb-4">
           {teachers.map((teacher, index) => (
             <Card
               key={index}
-              className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden w-80 h-96 relative"
+              className="group hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden w-80 min-w-[20rem] h-96 relative"
             >
               {/* Full card image */}
               <img

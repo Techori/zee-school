@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import EnquiryModal from './EnquiryModal';
+import { Link } from 'react-router-dom';
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,14 +40,17 @@ export function Navigation() {
                 {item.name}
               </a>
             ))}
-            <Button className="bg-primary hover:bg-primary/90">
+            {/* <Button className="bg-primary hover:bg-primary/90">
               Admission
-            </Button>
+            </Button> */}
+            <EnquiryModal btnTxt=" Admission"/>
+                <Link to={"https://www.larn2pay.com/login"} >
             <Button
               className="ml-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
             >
               Login
             </Button>
+            </Link>
             
           </div>
 
@@ -75,14 +80,17 @@ export function Navigation() {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full bg-primary hover:bg-primary/90">
+                {/* <Button className="w-full bg-primary hover:bg-primary/90">
                   Admission
-                </Button>
+                </Button> */}
+                <EnquiryModal btnTxt=" Admission"/>
+                <Link to={"https://www.larn2pay.com/login"} >
                 <Button
-                  className="w-full mt-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
-                >
+                  className="ml-4 mt-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
+                  >
                   Login
                 </Button>
+                  </Link>
                
               </div>
             </div>

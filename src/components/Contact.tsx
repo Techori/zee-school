@@ -4,6 +4,8 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import EnquiryModal from './EnquiryModal';
+import ContactForm from './ContactForm';
 
 export function Contact() {
   const contactInfo = [
@@ -65,13 +67,14 @@ export function Contact() {
               <p className="text-gray-600 mb-4">
                 Interested in enrolling your child? Contact our admission office for detailed information about the application process, requirements, and available seats.
               </p>
-              <Button className="bg-primary hover:bg-primary/90">
+              {/* <Button className="bg-primary hover:bg-primary/90">
                 Admission
-              </Button>
+              </Button> */}
+              <EnquiryModal btnTxt=" Admission"/>
             </div>
           </div>
-
-          <Card className="shadow-lg">
+          <ContactForm/>
+          {/* <Card className="shadow-lg">
             <CardHeader>
               <CardTitle className="text-2xl font-bold text-gray-900">Send us a Message</CardTitle>
             </CardHeader>
@@ -119,7 +122,7 @@ export function Contact() {
                 Send Message
               </Button>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>
