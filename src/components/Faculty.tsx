@@ -36,7 +36,7 @@ export function Faculty() {
       experience: "12+ Years",
       image: "/Images/faculty/img4.jpg",
       email: "bhamriratika@gmail.com",
-      phone: "+91 94797 32301",
+      phone: "",
       alt:"/user.avif"
     },
    
