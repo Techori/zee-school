@@ -18,7 +18,7 @@ export function Faculty() {
       experience: "15+ Years",
       image: "/Images/faculty/img2.jpg",
       email: " preetiupadhyay2008@gmail.com ",
-      phone: "+91 97533 57555",
+      phone: "+91 99933 81700",
       alt:"/user.avif"
     },
     {
@@ -26,8 +26,8 @@ export function Faculty() {
       position: "Director ",
       experience: "12+ Years",
       image: "/Images/faculty/img3.jpg",
-      email: "ShilpiVishwakarma12345@gmail.com",
-      phone: "+91 83196 03391",
+      email: "-",
+      phone: "-",
       alt:"/user.avif"
     },
      {
@@ -35,8 +35,8 @@ export function Faculty() {
       position: "principal  ",
       experience: "12+ Years",
       image: "/Images/faculty/img4.jpg",
-      email: "bhamriratika@gmail.com",
-      phone: "",
+      email: "-",
+      phone: "-",
       alt:"/user.avif"
     },
    
