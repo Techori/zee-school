@@ -30,16 +30,6 @@ export function Faculty() {
       phone: "-",
       alt:"/user.avif"
     },
-     {
-      name: "Ratika Bhamri",
-      position: "principal  ",
-      experience: "12+ Years",
-      image: "/Images/faculty/img4.jpg",
-      email: "-",
-      phone: "-",
-      alt:"/user.avif"
-    },
-   
    
   ];
 
