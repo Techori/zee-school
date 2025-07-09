@@ -44,13 +44,16 @@ export function Navigation() {
               Admission
             </Button> */}
             <EnquiryModal btnTxt=" Admission"/>
-                <Link to={"#"} >
-            <Button
-              className="ml-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
-            >
-              Login
-            </Button>
-            </Link>
+                <a
+                  href="https://www.larn2pay.com"
+                >
+                  <Button
+                    className="ml-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
+                  >
+                    Login
+                  </Button>
+                </a>
+
             
           </div>
 
@@ -84,13 +87,16 @@ export function Navigation() {
                   Admission
                 </Button> */}
                 <EnquiryModal btnTxt=" Admission"/>
-                <Link to={"#"} >
-                <Button
-                  className="ml-4 mt-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
+                <a
+                  href="https://www.larn2pay.com"
+                >
+                  <Button
+                    className="ml-4 mt-2 bg-transparent text-black border border-black hover:bg-black hover:text-white transition-colors"
                   >
-                  Login
-                </Button>
-                  </Link>
+                    Login
+                  </Button>
+                </a>
+
                
               </div>
             </div>
